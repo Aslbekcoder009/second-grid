@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 {
+    grid-area: box1;
+    background-color: blue;
+    background-image:url("../images/1.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box2 {
+    grid-area: box2;
+    background-color: dodgerblue;
+    background-image:url("../images/2.jpg")  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box3 {
+    grid-area: box3;
+    background-color: green;
+    background-image:url("../images/3.jpg")  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box4 {
+    grid-area: box4;
+    background-color: gray;
+    background-image:url("../images/4.jpg")  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box5 {
+    grid-area: box5;
+    background-color: yellow;
+    background-image: url("../images/5.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box6 {
+    grid-area: box6;
+    background-color: yellowgreen;
+    background-image: url("../images/6.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box7 {
+    grid-area: box7;
+    background-color: black;
+    background-image: url("../images/7.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box8 {
+    grid-area: box8;
+    background-color: hotpink;
+    background-image:url("../images/8.jpg")  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box9 {
+    grid-area: box9;
+    background-color: tomato;
+    background-image:url("../images/9.jpg")  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box10 {
+    grid-area: box10;
+    background-color: aqua;
+    background-image: url("../images/10.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box11 {
+    grid-area: box11;
+    background-color: darkblue;
+    background-image:url("../images/11.jpg")  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box12 {
+    grid-area: box12;
+    background-color: darkgoldenrod;
+    background-image: url("../images/12.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box13 {
+    grid-area: box13;
+    background-color: darkgreen;
+    background-image:url("../images/13.jpg")  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dad {
+    width: 1500px;
+    height: 850px;
+    display: grid;
+    grid-template-areas: "box1 box1 box2 box3 box4 box4"
+        "box1 box1 box2 box5 box6 box7"
+        "box8 box8 box9 box5 box10 box10"
+        "box11 box12 box9 box13 box10 box10";
+        grid-gap: 10px;
+}
